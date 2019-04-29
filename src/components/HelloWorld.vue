@@ -12,6 +12,11 @@ export default {
       msg: 'Welcome to Your Vue.js App 1'
     }
   },
+  methods: {
+    any: function(){
+      console.log(this.$store.state.count)
+    }
+  },
   components: {
     OtherComponent
   }
